@@ -1,4 +1,6 @@
-# README
+git # README
+
+`./bin/dev` to run the app
 
 This README would normally document whatever steps are necessary to get the
 application up and running.

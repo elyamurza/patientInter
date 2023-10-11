@@ -10,7 +10,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'mono': ['ui-monospace', 'SFMono-Regular']
+        sans: ['Inter var', ...defaultTheme.fontFamily.sans]
       },
     },
   },

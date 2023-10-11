@@ -12,8 +12,15 @@
   </head>
 
   <body class="h-full">
-    <p class="notice"><%= notice %></p> 
-    <p class="alert"><%= alert %></p> 
-    <main><%= yield %></main>
+    <%
+=begin%>
+ <p class="notice"><%= notice %></p> 
+    <p class="alert"><%= alert %></p>  
+<%
+=end%>
+
+    <%= render "layouts/navbars/basic_navbar" %>
+
+    <%= yield %>
   </body>
 </html>
